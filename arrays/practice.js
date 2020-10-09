@@ -129,8 +129,18 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
-
-
+function divider(numbersArray){
+  let arr1=[]
+  let arr2=[]
+  for(i=0; i < numbersArray.length; i++){
+    if(numbersArray[i] % 2 === 0){
+      arr1.push(numbersArray[i])
+  } else {
+      arr2.push(numbersArray[i])
+  }
+  }
+  return arr = [arr1, arr2]
+}
 
 ////////// PROBLEM 7 //////////
 
